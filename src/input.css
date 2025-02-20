@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary : #1DB954;
+    --color-secondary : #ddf5dd;
+    --color-third : #121212;
+    --color-fourth : #DEDEDE;
+    --color-fifth : #B9E9CA;
+    --font-manrope : "Manrope";
+}
+
+
