@@ -15,7 +15,7 @@
 </head>
 
 <body class="bg-third">
-    <main class="font-manrope h-300">
+    <main class="h-300">
         <!--Header Search-->
         <form class="flex items-center w-262 mx-auto mt-5 justify-between">
             <div class="part1 flex ml-8">
@@ -329,159 +329,247 @@
                 </ul>
             </div>
         </aside>
-        <!--Main-->
-        <div class="main-content lg:ml-90 mt-10">
-            <h1 class="text-2xl font-bold text-white mb-6">Browse all</h1>
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 w-11/12 max-w-9xl">
-                <div
-                    class="relative overflow-hidden bg-green-700 rounded-lg p-4 flex items-end h-62 transform transition duration-300 hover:scale-105 hover:brightness-110">
-                    <div class="wrap">
-                        <h1 class="absolute top-8 text-xl font-bold text-white">Podcasts</h1>
-                        <br>
-                        <img class="rotate-22 size-40 absolute -bottom-5 -right-5 rounded-xl" src="../asset/cover6.png"
-                            alt="">
+        <!--PlayList-->
+        <h1 class="text-white ml-80 text-2xl my-10">Playlist for you</h1>
+        <div class="main flex items-center justify-evenly ml-60">
+            <div class="main-container h-100 w-100 bg-amber-500  rounded-4xl relative overflow-hidden transform transition duration-300 hover:scale-105 hover:brightness-110">
+                <div class="container bg-[url('../asset/user1.png')] bg-cover h-110 mt-20 absolute bottom-0">
+                    <p class="text-white font-medium pl-6 pt-20">39 Tracks</p>
+                    <div class="wrap flex items-center justify-center bottom-10 left-10 absolute z-1">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4" y="4" width="50" height="50" rx="26" stroke="white" stroke-width="8" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M30 54C36.3652 54 42.4697 51.4714 46.9706 46.9706C51.4714 42.4697 54 36.3652 54 30C54 23.6348 51.4714 17.5303 46.9706 13.0294C42.4697 8.52856 36.3652 6 30 6C23.6348 6 17.5303 8.52856 13.0294 13.0294C8.52856 17.5303 6 23.6348 6 30C6 36.3652 8.52856 42.4697 13.0294 46.9706C17.5303 51.4714 23.6348 54 30 54ZM28.665 21.504C28.2132 21.2026 27.688 21.0294 27.1455 21.0031C26.6031 20.9767 26.0636 21.0981 25.5847 21.3544C25.1058 21.6106 24.7055 21.992 24.4264 22.458C24.1473 22.9239 23.9999 23.4569 24 24V36C23.9999 36.5431 24.1473 37.0761 24.4264 37.542C24.7055 38.008 25.1058 38.3894 25.5847 38.6456C26.0636 38.9019 26.6031 39.0233 27.1455 38.9969C27.688 38.9706 28.2132 38.7974 28.665 38.496L37.665 32.496C38.0759 32.222 38.4128 31.8509 38.6458 31.4155C38.8788 30.98 39.0007 30.4938 39.0007 30C39.0007 29.5062 38.8788 29.02 38.6458 28.5845C38.4128 28.1491 38.0759 27.778 37.665 27.504L28.665 21.504Z"
+                                fill="white" />
+                        </svg>
+                        <div class="wrap-inside text-white font-semibold ml-5">
+                            <p class="text-xl">Chill Mix</p>
+                            <p>Just relax and listen</p>
+                        </div>
                     </div>
                 </div>
-                <div
-                    class="relative overflow-hidden bg-orange-700 rounded-lg p-4 flex items-end h-62 transform transition duration-300 hover:scale-105 hover:brightness-110">
-                    <div class="wrap">
-                        <h1 class="absolute top-8 text-xl font-bold text-white">Audiobooks</h1>
-                        <br>
-                        <img class="rotate-22 size-40 absolute -bottom-5 -right-5 rounded-xl" src="../asset/cover1.png"
-                            alt="">
+                <div class=" bg-linear-to-t from-amber-500 to-transparent absolute w-full h-full -bottom-30"></div>
+
+            </div>
+            <div class="main-container h-100 w-100 bg-red-600  rounded-4xl relative overflow-hidden transform transition duration-300 hover:scale-105 hover:brightness-110">
+                <div class="container bg-[url('../asset/user2.png')] bg-cover h-110 mt-20 absolute bottom-0">
+                    <p class="text-white font-medium pl-6 pt-20">47 Tracks</p>
+                    <div class="wrap flex items-center justify-center bottom-10 left-10 absolute z-1">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4" y="4" width="50" height="50" rx="26" stroke="white" stroke-width="8" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M30 54C36.3652 54 42.4697 51.4714 46.9706 46.9706C51.4714 42.4697 54 36.3652 54 30C54 23.6348 51.4714 17.5303 46.9706 13.0294C42.4697 8.52856 36.3652 6 30 6C23.6348 6 17.5303 8.52856 13.0294 13.0294C8.52856 17.5303 6 23.6348 6 30C6 36.3652 8.52856 42.4697 13.0294 46.9706C17.5303 51.4714 23.6348 54 30 54ZM28.665 21.504C28.2132 21.2026 27.688 21.0294 27.1455 21.0031C26.6031 20.9767 26.0636 21.0981 25.5847 21.3544C25.1058 21.6106 24.7055 21.992 24.4264 22.458C24.1473 22.9239 23.9999 23.4569 24 24V36C23.9999 36.5431 24.1473 37.0761 24.4264 37.542C24.7055 38.008 25.1058 38.3894 25.5847 38.6456C26.0636 38.9019 26.6031 39.0233 27.1455 38.9969C27.688 38.9706 28.2132 38.7974 28.665 38.496L37.665 32.496C38.0759 32.222 38.4128 31.8509 38.6458 31.4155C38.8788 30.98 39.0007 30.4938 39.0007 30C39.0007 29.5062 38.8788 29.02 38.6458 28.5845C38.4128 28.1491 38.0759 27.778 37.665 27.504L28.665 21.504Z"
+                                fill="white" />
+                        </svg>
+                        <div class="wrap-inside text-white font-semibold ml-5">
+                            <p class="text-xl">Gamer Mix</p>
+                            <p>Listen while you play</p>
+                        </div>
                     </div>
                 </div>
-                <div
-                    class="relative overflow-hidden bg-gray-600 rounded-lg p-4 flex items-end h-62 transform transition duration-300 hover:scale-105 hover:brightness-110">
-                    <div class="wrap">
-                        <h1 class="absolute top-8 text-xl font-bold text-white">Made For You</h1>
-                        <br>
-                        <img class="rotate-22 size-40 absolute -bottom-5 -right-5 rounded-xl" src="../asset/cover7.png"
-                            alt="">
+                <div class=" bg-linear-to-t from-red-500 to-transparent absolute w-full h-full -bottom-30"></div>
+
+            </div>
+            <div class="main-container h-100 w-100 bg-blue-700  rounded-4xl relative overflow-hidden transform transition duration-300 hover:scale-105 hover:brightness-110">
+                <div class="container bg-[url('../asset/user3.png')] bg-cover h-110 mt-20 absolute bottom-0">
+                    <p class="text-white font-medium pl-6 pt-20">26 Tracks</p>
+                    <div class="wrap flex items-center justify-center bottom-10 left-10 absolute z-1">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4" y="4" width="50" height="50" rx="26" stroke="white" stroke-width="8" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M30 54C36.3652 54 42.4697 51.4714 46.9706 46.9706C51.4714 42.4697 54 36.3652 54 30C54 23.6348 51.4714 17.5303 46.9706 13.0294C42.4697 8.52856 36.3652 6 30 6C23.6348 6 17.5303 8.52856 13.0294 13.0294C8.52856 17.5303 6 23.6348 6 30C6 36.3652 8.52856 42.4697 13.0294 46.9706C17.5303 51.4714 23.6348 54 30 54ZM28.665 21.504C28.2132 21.2026 27.688 21.0294 27.1455 21.0031C26.6031 20.9767 26.0636 21.0981 25.5847 21.3544C25.1058 21.6106 24.7055 21.992 24.4264 22.458C24.1473 22.9239 23.9999 23.4569 24 24V36C23.9999 36.5431 24.1473 37.0761 24.4264 37.542C24.7055 38.008 25.1058 38.3894 25.5847 38.6456C26.0636 38.9019 26.6031 39.0233 27.1455 38.9969C27.688 38.9706 28.2132 38.7974 28.665 38.496L37.665 32.496C38.0759 32.222 38.4128 31.8509 38.6458 31.4155C38.8788 30.98 39.0007 30.4938 39.0007 30C39.0007 29.5062 38.8788 29.02 38.6458 28.5845C38.4128 28.1491 38.0759 27.778 37.665 27.504L28.665 21.504Z"
+                                fill="white" />
+                        </svg>
+                        <div class="wrap-inside text-white font-semibold ml-5">
+                            <p class="text-xl">Future Mix</p>
+                            <p>Of your favourite</p>
+                        </div>
                     </div>
                 </div>
-                <div
-                    class="relative overflow-hidden bg-blue-600 rounded-lg p-4 flex items-end h-62 transform transition duration-300 hover:scale-105 hover:brightness-110">
-                    <div class="wrap">
-                        <h1 class="absolute top-8 text-xl font-bold text-white">Charts</h1>
-                        <br>
-                        <img class="rotate-22 size-40 absolute -bottom-5 -right-5 rounded-xl" src="../asset/cover2.png"
-                            alt="">
+                <div class=" bg-linear-to-t from-blue-700 to-transparent absolute w-full h-full -bottom-30"></div>
+
+            </div>
+        </div>
+        <h2 class="text-2xl font-semibold my-10 ml-80 text-white">What you listen to the most</h2>
+        <div class="section-2 flex items-center justify-around">
+            <!--Lofi music-->
+
+            <div class="bg-black border border-gray-700 p-8 pr-15 rounded-2xl shadow-lg w-150 h-75 ml-65 text-white">
+                <div class="flex flex-col lg:flex-row gap-4 relative bottom-2">
+                    <div class="flex-1">
+                        <img src="../asset/pic1.png" alt="Chillhop Spring 2020" class="rounded-xl w-200 h-63 ">
+                    </div>
+                    <div class="grid grid-cols-2 gap-4  md:w-1/2">
+                        <img src="../asset/pic2.jpg" alt="Album 1" class="rounded-xl w-full object-cover">
+                        <img src="../asset/pic3.png" alt="Album 2" class="rounded-xl w-full object-cover">
+                        <img src="../asset/pic4.png" alt="Album 3" class="rounded-xl w-full object-cover">
+                        <img src="../asset/pic5.png" alt="Album 4" class="rounded-xl w-full object-cover">
+                    </div>
+                    <div class="flex items-center justify-center rotate-90 md:-rotate-90 absolute top-30 -right-20">
+                        <p class="text-lg font-medium tracking-widest text-blue-400">Lo-Fi Music</p>
                     </div>
                 </div>
-                <div
-                    class="relative overflow-hidden bg-purple-800 rounded-lg p-4 flex items-end h-62 transform transition duration-300 hover:scale-105 hover:brightness-110">
-                    <div class="wrap">
-                        <h1 class="absolute top-8 text-xl font-bold text-white">New Releases</h1>
-                        <br>
-                        <img class="rotate-22 size-40 absolute -bottom-5 -right-5 rounded-xl" src="../asset/cover5.png"
-                            alt="">
+            </div>
+            <!--music-player-->
+            <div class="bg-black rounded-2xl border-1 py-6 border-gray-700 p-4 w-full max-w-2xl text-white">
+                <div class="space-y-4">
+                    <!-- Track Item -->
+                    <div class="flex items-center justify-between hover:bg-neutral-900 p-3 rounded-lg transition">
+                        <div class="flex items-center space-x-4">
+                            <img src="../asset/illslick.jpg" alt="Album cover" class="w-12 h-12 rounded-md" />
+                            <div>
+                                <p class="font-semibold">Best things</p>
+                                <p class="text-sm text-gray-400">Illslick</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="flex items-center gap-2 text-gray-200 text-sm font-bold">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.625 11.125H6.0625C4.81973 11.125 3.8125 12.134 3.8125 13.3792V15.6208C3.8125 16.8657 4.81973 17.875 6.0625 17.875H6.625C7.24621 17.875 7.75 17.3702 7.75 16.7479V12.2521C7.75 11.6295 7.24621 11.125 6.625 11.125ZM13.9375 11.125H13.375C12.7538 11.125 12.25 11.6295 12.25 12.2521V16.7479C12.25 17.3702 12.7538 17.875 13.375 17.875H13.9375C15.1803 17.875 16.1875 16.8657 16.1875 15.6208V13.3792C16.1875 12.1343 15.1803 11.125 13.9375 11.125ZM10 2.125C4.96949 2.125 1.16066 6.31316 1 11.125V15.0625C1 15.3733 1.25172 15.625 1.5625 15.625H2.125C2.43578 15.625 2.6875 15.3733 2.6875 15.0625V11.125C2.6875 7.09363 5.96863 3.81953 10 3.81883C14.0314 3.81953 17.3125 7.09363 17.3125 11.125V15.0625C17.3125 15.3733 17.5642 15.625 17.875 15.625H18.4375C18.7483 15.625 19 15.3733 19 15.0625V11.125C18.8393 6.31316 15.0305 2.125 10 2.125Z"
+                                        fill="white" />
+                                </svg>
+
+                                311k
+                            </div>
+                            <div
+                                class="both-buttons flex items-center justify-between rounded-full border border-gray-600 h-9 w-20">
+                                <button
+                                    class="w-8 h-8 flex items-center justify-center rounded-full hover:bg-green-900">
+                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M4.08991 6.96504C5.02755 6.02768 6.29909 5.50111 7.62491 5.50111C8.95073 5.50111 10.2223 6.02768 11.1599 6.96504L12.6249 8.42879L14.0899 6.96504C14.5511 6.48749 15.1029 6.10658 15.7129 5.84453C16.3229 5.58249 16.979 5.44456 17.6429 5.43879C18.3068 5.43302 18.9652 5.55953 19.5797 5.81093C20.1942 6.06234 20.7524 6.4336 21.2219 6.90306C21.6913 7.37253 22.0626 7.93079 22.314 8.54527C22.5654 9.15975 22.6919 9.81815 22.6862 10.482C22.6804 11.1459 22.5425 11.802 22.2804 12.4121C22.0184 13.0221 21.6375 13.5738 21.1599 14.035L12.6249 22.5713L4.08991 14.035C3.15255 13.0974 2.62598 11.8259 2.62598 10.5C2.62598 9.17422 3.15255 7.90268 4.08991 6.96504Z"
+                                            fill="#2BD268" />
+                                    </svg>
+
+                                </button>
+                                <button
+                                    class="w-8 h-8 flex items-center justify-center rounded-full border border-gray-500 hover:bg-green-500">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M28.572 20.4904L38.829 27.3306C39.2684 27.6236 39.6287 28.0237 39.8779 28.4894C40.1271 28.955 40.2574 29.475 40.2574 30.0031C40.2574 30.5313 40.1271 31.0512 39.8779 31.5169C39.6287 31.9825 39.2684 32.3795 38.829 32.6725L28.572 39.5126C28.0888 39.835 27.5272 40.0201 26.947 40.0483C26.3668 40.0765 25.7899 39.9467 25.2778 39.6726C24.7656 39.3986 24.3375 38.9907 24.039 38.4924C23.7405 37.9941 23.5829 37.4241 23.583 36.8433V23.1662C23.5818 22.5848 23.7385 22.014 24.0365 21.5148C24.3345 21.0156 24.7626 20.6067 25.2749 20.3319C25.7873 20.0571 26.3647 19.9267 26.9454 19.9546C27.5261 19.9825 28.0883 20.1677 28.572 20.4904Z"
+                                            fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M56.677 41.05C58.1281 37.5467 58.875 33.7919 58.875 30C58.875 22.3419 55.8328 14.9974 50.4177 9.58229C45.0026 4.16718 37.6581 1.125 30 1.125C22.3419 1.125 14.9974 4.16718 9.58229 9.58229C4.16718 14.9974 1.125 22.3419 1.125 30C1.125 33.7919 1.87187 37.5467 3.32298 41.05C4.77408 44.5533 6.901 47.7364 9.58229 50.4177C12.2636 53.099 15.4467 55.2259 18.95 56.677C22.4533 58.1281 26.2081 58.875 30 58.875C33.7919 58.875 37.5467 58.1281 41.05 56.677C44.5533 55.2259 47.7364 53.099 50.4177 50.4177C53.099 47.7364 55.2259 44.5533 56.677 41.05Z"
+                                            stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div
-                    class="relative overflow-hidden bg-neutral-800 rounded-lg p-4 flex items-end h-62 transform transition duration-300 hover:scale-105 hover:brightness-110">
-                    <div class="wrap">
-                        <h1 class="absolute top-8 text-xl font-bold text-white">Discover</h1>
-                        <br>
-                        <img class="rotate-22 size-40 absolute -bottom-5 -right-5 rounded-xl" src="../asset/cover4.png"
-                            alt="">
+
+                    <!-- Repeat for other songs -->
+                    <div class="flex items-center justify-between hover:bg-neutral-900 p-3 rounded-lg transition">
+                        <div class="flex items-center space-x-4">
+                            <img src="../asset/charlie.jpg" alt="Album cover" class="w-12 h-12 rounded-md" />
+                            <div>
+                                <p class="font-semibold">One call away</p>
+                                <p class="text-sm text-gray-400">Charlie Puth</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="flex items-center gap-2 text-gray-200 text-sm font-bold">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.625 11.125H6.0625C4.81973 11.125 3.8125 12.134 3.8125 13.3792V15.6208C3.8125 16.8657 4.81973 17.875 6.0625 17.875H6.625C7.24621 17.875 7.75 17.3702 7.75 16.7479V12.2521C7.75 11.6295 7.24621 11.125 6.625 11.125ZM13.9375 11.125H13.375C12.7538 11.125 12.25 11.6295 12.25 12.2521V16.7479C12.25 17.3702 12.7538 17.875 13.375 17.875H13.9375C15.1803 17.875 16.1875 16.8657 16.1875 15.6208V13.3792C16.1875 12.1343 15.1803 11.125 13.9375 11.125ZM10 2.125C4.96949 2.125 1.16066 6.31316 1 11.125V15.0625C1 15.3733 1.25172 15.625 1.5625 15.625H2.125C2.43578 15.625 2.6875 15.3733 2.6875 15.0625V11.125C2.6875 7.09363 5.96863 3.81953 10 3.81883C14.0314 3.81953 17.3125 7.09363 17.3125 11.125V15.0625C17.3125 15.3733 17.5642 15.625 17.875 15.625H18.4375C18.7483 15.625 19 15.3733 19 15.0625V11.125C18.8393 6.31316 15.0305 2.125 10 2.125Z"
+                                        fill="white" />
+                                </svg>
+
+                                290k
+                            </div>
+                            <div
+                                class="both-buttons flex items-center justify-between rounded-full border border-gray-600 h-9 w-20">
+                                <button
+                                    class="w-8 h-8 flex items-center justify-center rounded-full hover:bg-green-900">
+                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M4.08991 6.96504C5.02755 6.02768 6.29909 5.50111 7.62491 5.50111C8.95073 5.50111 10.2223 6.02768 11.1599 6.96504L12.6249 8.42879L14.0899 6.96504C14.5511 6.48749 15.1029 6.10658 15.7129 5.84453C16.3229 5.58249 16.979 5.44456 17.6429 5.43879C18.3068 5.43302 18.9652 5.55953 19.5797 5.81093C20.1942 6.06234 20.7524 6.4336 21.2219 6.90306C21.6913 7.37253 22.0626 7.93079 22.314 8.54527C22.5654 9.15975 22.6919 9.81815 22.6862 10.482C22.6804 11.1459 22.5425 11.802 22.2804 12.4121C22.0184 13.0221 21.6375 13.5738 21.1599 14.035L12.6249 22.5713L4.08991 14.035C3.15255 13.0974 2.62598 11.8259 2.62598 10.5C2.62598 9.17422 3.15255 7.90268 4.08991 6.96504Z"
+                                            fill="#2BD268" />
+                                    </svg>
+
+                                </button>
+                                <button
+                                    class="w-8 h-8 flex items-center justify-center rounded-full border border-gray-500 hover:bg-green-500">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M28.572 20.4904L38.829 27.3306C39.2684 27.6236 39.6287 28.0237 39.8779 28.4894C40.1271 28.955 40.2574 29.475 40.2574 30.0031C40.2574 30.5313 40.1271 31.0512 39.8779 31.5169C39.6287 31.9825 39.2684 32.3795 38.829 32.6725L28.572 39.5126C28.0888 39.835 27.5272 40.0201 26.947 40.0483C26.3668 40.0765 25.7899 39.9467 25.2778 39.6726C24.7656 39.3986 24.3375 38.9907 24.039 38.4924C23.7405 37.9941 23.5829 37.4241 23.583 36.8433V23.1662C23.5818 22.5848 23.7385 22.014 24.0365 21.5148C24.3345 21.0156 24.7626 20.6067 25.2749 20.3319C25.7873 20.0571 26.3647 19.9267 26.9454 19.9546C27.5261 19.9825 28.0883 20.1677 28.572 20.4904Z"
+                                            fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M56.677 41.05C58.1281 37.5467 58.875 33.7919 58.875 30C58.875 22.3419 55.8328 14.9974 50.4177 9.58229C45.0026 4.16718 37.6581 1.125 30 1.125C22.3419 1.125 14.9974 4.16718 9.58229 9.58229C4.16718 14.9974 1.125 22.3419 1.125 30C1.125 33.7919 1.87187 37.5467 3.32298 41.05C4.77408 44.5533 6.901 47.7364 9.58229 50.4177C12.2636 53.099 15.4467 55.2259 18.95 56.677C22.4533 58.1281 26.2081 58.875 30 58.875C33.7919 58.875 37.5467 58.1281 41.05 56.677C44.5533 55.2259 47.7364 53.099 50.4177 50.4177C53.099 47.7364 55.2259 44.5533 56.677 41.05Z"
+                                            stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div
-                    class="relative overflow-hidden bg-teal-700 rounded-lg p-4 flex items-end h-62 transform transition duration-300 hover:scale-105 hover:brightness-110">
-                    <div class="wrap">
-                        <h1 class="absolute top-8 text-xl font-bold text-white">Live Events</h1>
-                        <br>
-                        <img class="rotate-22 size-40 absolute -bottom-5 -right-5 rounded-xl" src="../asset/cover8.png"
-                            alt="">
-                    </div>
-                </div>
-                <div
-                    class="relative overflow-hidden bg-pink-300 rounded-lg p-4 flex items-end h-62 transform transition duration-300 hover:scale-105 hover:brightness-110">
-                    <div class="wrap">
-                        <h1 class="absolute top-8 text-xl font-bold text-white">Hip-Hop</h1>
-                        <br>
-                        <img class="rotate-22 size-40 absolute -bottom-5 -right-5 rounded-xl"
-                            src="../asset/illslick.jpg" alt="">
-                    </div>
-                </div>
-                <div
-                    class="relative overflow-hidden bg-red-800 rounded-lg p-4 flex items-end h-62 transform transition duration-300 hover:scale-105 hover:brightness-110">
-                    <div class="wrap">
-                        <h1 class="absolute top-8 text-xl font-bold text-white">Pop</h1>
-                        <br>
-                        <img class="rotate-22 size-40 absolute -bottom-5 -right-5 rounded-xl" src="../asset/cover3.png"
-                            alt="">
-                    </div>
-                </div>
-                <div
-                    class="relative overflow-hidden bg-neutral-700 rounded-lg p-4 flex items-end h-62 transform transition duration-300 hover:scale-105 hover:brightness-110">
-                    <div class="wrap">
-                        <h1 class="absolute top-8 text-xl font-bold text-white">Country</h1>
-                        <br>
-                        <img class="rotate-22 size-40 absolute -bottom-5 -right-5 rounded-xl" src="../asset/cover9.png"
-                            alt="">
-                    </div>
-                </div>
-                <div
-                    class="relative overflow-hidden bg-yellow-400 rounded-lg p-4 flex items-end h-62 transform transition duration-300 hover:scale-105 hover:brightness-110">
-                    <div class="wrap">
-                        <h1 class="absolute top-8 text-xl font-bold text-white">Latin</h1>
-                        <br>
-                        <img class="rotate-22 size-40 absolute -bottom-5 -right-5 rounded-xl" src="../asset/charlie.jpg"
-                            alt="">
-                    </div>
-                </div>
-                <div
-                    class="relative overflow-hidden bg-gray-800 rounded-lg p-4 flex items-end h-62 transform transition duration-300 hover:scale-105 hover:brightness-110">
-                    <div class="wrap">
-                        <h1 class="absolute top-8 text-xl font-bold text-white">Rock</h1>
-                        <br>
-                        <img class="rotate-22 size-40 absolute -bottom-5 -right-5 rounded-xl" src="../asset/travis.jpg"
-                            alt="">
-                    </div>
-                </div>
-                <div
-                    class="relative overflow-hidden bg-red-500 rounded-lg p-4 flex items-end h-62 transform transition duration-300 hover:scale-105 hover:brightness-110">
-                    <div class="wrap">
-                        <h1 class="absolute top-8 text-xl font-bold text-white">Summer</h1>
-                        <br>
-                        <img class="rotate-22 size-40 absolute -bottom-5 -right-5 rounded-xl"
-                            src="../asset/theWeekend.png" alt="">
-                    </div>
-                </div>
-                <div
-                    class="relative overflow-hidden bg-gray-400 rounded-lg p-4 flex items-end h-62 transform transition duration-300 hover:scale-105 hover:brightness-110">
-                    <div class="wrap">
-                        <h1 class="absolute top-8 text-xl font-bold text-white">Workout</h1>
-                        <br>
-                        <img class="rotate-22 size-40 absolute -bottom-5 -right-5 rounded-xl" src="../asset/(3).jpg"
-                            alt="">
-                    </div>
-                </div>
-                <div
-                    class="relative overflow-hidden bg-blue-300 rounded-lg p-4 flex items-end h-62 transform transition duration-300 hover:scale-105 hover:brightness-110">
-                    <div class="wrap">
-                        <h1 class="absolute top-8 text-xl font-bold text-white">R&B</h1>
-                        <br>
-                        <img class="rotate-22 size-40 absolute -bottom-5 -right-5 rounded-xl" src="../asset/(6).jpg"
-                            alt="">
+
+                    <div class="flex items-center justify-between hover:bg-neutral-900 p-3 rounded-lg transition">
+                        <div class="flex items-center space-x-4">
+                            <img src="../asset/theWeekend.png" alt="Album cover" class="w-12 h-12 rounded-md" />
+                            <div>
+                                <p class="font-semibold">Star Boy</p>
+                                <p class="text-sm text-gray-400">The Weekend</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="flex items-center gap-2 text-gray-200 text-sm font-bold">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.625 11.125H6.0625C4.81973 11.125 3.8125 12.134 3.8125 13.3792V15.6208C3.8125 16.8657 4.81973 17.875 6.0625 17.875H6.625C7.24621 17.875 7.75 17.3702 7.75 16.7479V12.2521C7.75 11.6295 7.24621 11.125 6.625 11.125ZM13.9375 11.125H13.375C12.7538 11.125 12.25 11.6295 12.25 12.2521V16.7479C12.25 17.3702 12.7538 17.875 13.375 17.875H13.9375C15.1803 17.875 16.1875 16.8657 16.1875 15.6208V13.3792C16.1875 12.1343 15.1803 11.125 13.9375 11.125ZM10 2.125C4.96949 2.125 1.16066 6.31316 1 11.125V15.0625C1 15.3733 1.25172 15.625 1.5625 15.625H2.125C2.43578 15.625 2.6875 15.3733 2.6875 15.0625V11.125C2.6875 7.09363 5.96863 3.81953 10 3.81883C14.0314 3.81953 17.3125 7.09363 17.3125 11.125V15.0625C17.3125 15.3733 17.5642 15.625 17.875 15.625H18.4375C18.7483 15.625 19 15.3733 19 15.0625V11.125C18.8393 6.31316 15.0305 2.125 10 2.125Z"
+                                        fill="white" />
+                                </svg>
+
+                                7.350k
+                            </div>
+                            <div
+                                class="both-buttons flex items-center justify-between rounded-full border border-gray-600 h-9 w-20">
+                                <button
+                                    class="w-8 h-8 flex items-center justify-center rounded-full hover:bg-green-900">
+                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M4.08991 6.96504C5.02755 6.02768 6.29909 5.50111 7.62491 5.50111C8.95073 5.50111 10.2223 6.02768 11.1599 6.96504L12.6249 8.42879L14.0899 6.96504C14.5511 6.48749 15.1029 6.10658 15.7129 5.84453C16.3229 5.58249 16.979 5.44456 17.6429 5.43879C18.3068 5.43302 18.9652 5.55953 19.5797 5.81093C20.1942 6.06234 20.7524 6.4336 21.2219 6.90306C21.6913 7.37253 22.0626 7.93079 22.314 8.54527C22.5654 9.15975 22.6919 9.81815 22.6862 10.482C22.6804 11.1459 22.5425 11.802 22.2804 12.4121C22.0184 13.0221 21.6375 13.5738 21.1599 14.035L12.6249 22.5713L4.08991 14.035C3.15255 13.0974 2.62598 11.8259 2.62598 10.5C2.62598 9.17422 3.15255 7.90268 4.08991 6.96504Z"
+                                            fill="#2BD268" />
+                                    </svg>
+
+                                </button>
+                                <button
+                                    class="w-8 h-8 flex items-center justify-center rounded-full border border-gray-500 hover:bg-green-500">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M28.572 20.4904L38.829 27.3306C39.2684 27.6236 39.6287 28.0237 39.8779 28.4894C40.1271 28.955 40.2574 29.475 40.2574 30.0031C40.2574 30.5313 40.1271 31.0512 39.8779 31.5169C39.6287 31.9825 39.2684 32.3795 38.829 32.6725L28.572 39.5126C28.0888 39.835 27.5272 40.0201 26.947 40.0483C26.3668 40.0765 25.7899 39.9467 25.2778 39.6726C24.7656 39.3986 24.3375 38.9907 24.039 38.4924C23.7405 37.9941 23.5829 37.4241 23.583 36.8433V23.1662C23.5818 22.5848 23.7385 22.014 24.0365 21.5148C24.3345 21.0156 24.7626 20.6067 25.2749 20.3319C25.7873 20.0571 26.3647 19.9267 26.9454 19.9546C27.5261 19.9825 28.0883 20.1677 28.572 20.4904Z"
+                                            fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M56.677 41.05C58.1281 37.5467 58.875 33.7919 58.875 30C58.875 22.3419 55.8328 14.9974 50.4177 9.58229C45.0026 4.16718 37.6581 1.125 30 1.125C22.3419 1.125 14.9974 4.16718 9.58229 9.58229C4.16718 14.9974 1.125 22.3419 1.125 30C1.125 33.7919 1.87187 37.5467 3.32298 41.05C4.77408 44.5533 6.901 47.7364 9.58229 50.4177C12.2636 53.099 15.4467 55.2259 18.95 56.677C22.4533 58.1281 26.2081 58.875 30 58.875C33.7919 58.875 37.5467 58.1281 41.05 56.677C44.5533 55.2259 47.7364 53.099 50.4177 50.4177C53.099 47.7364 55.2259 44.5533 56.677 41.05Z"
+                                            stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!--footer -->
-        <div
-            class="bg-gradient-to-r from-blue-500 via-purple-500
-               to-pink-500 text-white  px-8 bottom-0 fixed z-40 w-full h-20 music-player-bar flex justify-between items-center">
-            <div class="text-footer text-white">
-                <p>PREVIEW OF SPOTIFY.COM</p>
-                <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
-            </div>
-            <button class="text-black bg-amber-50 rounded-3xl h-12 w-30 transform transition duration-300 hover:scale-105 hover:bg-primary hover:text-white">Sign up free</button>
-        </div>
     </main>
+
 </body>
 
 </html>
